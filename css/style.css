@@ -61,7 +61,11 @@ a.btn-mail:hover{
 }
 
 .card-subtitle{
-  font-weight: lighter;
+  font-weight: normal;
+  text-align: justify;
+}
+
+section.cover3 p{
   text-align: justify;
 }
 
