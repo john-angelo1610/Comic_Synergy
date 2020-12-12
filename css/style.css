@@ -45,6 +45,12 @@ html{
 #ako{
   height: 300px;
 }
+
+.navbar-brand img{
+  width: 80px;
+  height: 80px;
+}
+
 a.btn-mail {
   text-align: center;
   font-size: 25px;
