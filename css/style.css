@@ -47,8 +47,8 @@ html{
 }
 
 .navbar-brand img{
-  width: 70px;
-  height: 70px;
+  width: auto;
+  height: 80px;
 }
 
 a.btn-mail {
