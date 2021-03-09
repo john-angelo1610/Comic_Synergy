@@ -2,30 +2,27 @@ html{
   scroll-behavior: smooth;
 }
 #home{
-   background-image: linear-gradient(180deg, rgba(3,3,3,0.7315301120448179) 91%, rgba(0,0,0,1) 100%), url('../img/banner.jpg');
-   background-position: center;
-   background-size: contain;
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center
+  background-image: linear-gradient(180deg, rgba(3,3,3,0.7315301120448179) 91%, rgba(0,0,0,1) 100%), url('../img/banner.jpg');
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
-
-.cover1{
+.cover1, .cover2{
   position: relative;
   min-height: 200px;
-  background: url("../img/1.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+.cover1{
+  background: url("../img/1.jpg");
 }
 
 .cover2{
-  position: relative;
-  min-height: 200px;
   background: url("../img/3.jpg");
   background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 .cover3{
@@ -73,6 +70,15 @@ a.btn-mail:hover{
 
 section.cover3 p{
   text-align: justify;
+}
+
+footer a:hover{
+  opacity: .5;
+}
+
+footer a:active{
+  color: #2EB2FF !important;
+  opacity: 1;
 }
 
 @media (max-width: 575.98px) {
